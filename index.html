@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <title>Booking - Rechercher un hôtel</title>
+ <style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			background-color: #F8F8F8;
+		}
+		header {
+			background-color: #1E90FF;
+			color: #FFFFFF;
+			padding: 20px;
+			text-align: center;
+		}
+		h1 {
+			margin: 0;
+			font-size: 36px;
+		}
+		form {
+			margin: 40px auto;
+			padding: 20px;
+			background-color: #FFFFFF;
+			max-width: 600px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+			border-radius: 5px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		label {
+			font-size: 20px;
+			margin-right: 10px;
+			margin-bottom: 10px;
+			display: inline-block;
+			width: 150px;
+			text-align: right;
+		}
+		input[type="date"],
+		select {
+			font-size: 20px;
+			padding: 8px;
+			margin-bottom: 10px;
+			border: 1px solid #CCCCCC;
+			border-radius: 5px;
+			width: 100%;
+			box-sizing: border-box;
+		}
+		button[type="submit"] {
+			font-size: 24px;
+			padding: 10px;
+			background-color: #1E90FF;
+			color: #FFFFFF;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: background-color 0.2s ease;
+			margin-top: 20px;
+			width: 100%;
+			box-sizing: border-box;
+		}
+		button[type="submit"]:hover {
+			background-color: #005eff;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Booking</h1>
+	</header>
+	<form>
+		<label for="date-arrivee">Date d'arrivée :</label>
+		<input type="date" id="date-arrivee" name="date-arrivee">
+		<label for="date-depart">Date de départ :</label>
+		<input type="date" id="date-depart" name="date-depart">
+		<label for="nombre-personnes">Nombre de personnes :</label>
+		<select id="nombre-personnes" name="nombre-personnes">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+		</select>
+		<button type="submit"><a href="resultats.html">Rechercher</a></
+	</form>
+</body>
+</html>

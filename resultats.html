@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Booking - Liste des hôtels</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			background-color: #F8F8F8;
+		}
+		header {
+			background-color: #1E90FF;
+			color: #FFFFFF;
+			padding: 20px;
+			text-align: center;
+		}
+		h1 {
+			margin: 0;
+			font-size: 36px;
+		}
+		article {
+			max-width: 800px;
+			margin: 40px auto;
+			padding: 20px;
+			background-color: #FFFFFF;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+			border-radius: 5px;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-gap: 20px;
+		}
+		article img {
+			max-width: 100%;
+			height: auto;
+		}
+		h2 {
+			margin: 0;
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+		p {
+			margin: 0;
+			font-size: 16px;
+			margin-bottom: 20px;
+		}
+		a {
+			background-color: #1E90FF;
+			color: #FFFFFF;
+			padding: 10px 20px;
+			font-size: 18px;
+			border-radius: 5px;
+			text-decoration: none;
+			display: inline-block;
+			margin-top: 20px;
+			transition: background-color 0.3s ease;
+		}
+		a:hover {
+			background-color: #005CB9;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Booking</h1>
+		<h2>Liste des hôtels</h2>
+	</header>
+	<article>
+		<div>
+			<img src="hotel1.jpeg" alt="Hôtel 1">
+			<h2>Hôtel de Nantes</h2>
+			<p>Situé en centre ville, à proximité des centres d'affaires.</p>
+			<a href="hotel.html">Voir plus</a>
+		</div>
+		<div>
+			<img src="hotel2.jpeg" alt="Hôtel 2">
+			<h2>Hôtel de Paris</h2>
+			<p>Localisé en plein Paris, profitez de la vie parisienne en toute détente.</p>
+			<a href="hotel.html">Voir plus</a>
+		</div>
+		<div>
+			<img src="hotel3.jpeg" alt="Hôtel 3">
+			<h2>Hôtel de Marseille</h2>
+			<p>Marseille sous le meilleur angle ! Profitez du soleil avec un service de qualité.</p>
+			<a href="hotel.html">Voir plus</a>
+		</div>
+	</article>
+	<footer>
+		<p><a href="index.html">Retour à la page d'accueil</a></p>
+	</footer>
+</body>
+</html>

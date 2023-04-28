@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Booking - Hotel Nantes</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			background-color: #F8F8F8;
+		}
+
+		header {
+			background-color: #1E90FF;
+			color: #FFFFFF;
+			text-align: center;
+			padding: 20px;
+		}
+
+		.header-wrapper {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+
+		h1 {
+			font-size: 32px;
+			font-weight: bold;
+			margin: 0;
+		}
+
+		h2 {
+			font-size: 24px;
+			margin: 0;
+			font-weight: normal;
+		}
+
+		a {
+			background-color: #1E90FF;
+			color: #FFFFFF;
+			padding: 10px 20px;
+			font-size: 18px;
+			border-radius: 5px;
+			text-decoration: none;
+			display: inline-block;
+			margin-top: 20px;
+			transition: background-color 0.3s ease;
+		}
+
+		a:hover {
+			background-color: #005CB9;
+			color: #FFFFFF;
+		}
+
+		main {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+
+		.hotel-info {
+			margin-bottom: 20px;
+		}
+
+		.hotel-info h2 {
+			margin: 0;
+			font-size: 24px;
+		}
+
+		.hotel-info p {
+			margin: 0;
+			font-size: 16px;
+		}
+
+		.hotel-images {
+			overflow: hidden;
+		}
+
+		.image-slider {
+			display: flex;
+			flex-wrap: nowrap;
+			overflow-x: auto;
+			scroll-snap-type: x mandatory;
+			scroll-behavior: smooth;
+			-webkit-overflow-scrolling: touch;
+		}
+
+		.image-slider img {
+			flex: 0 0 auto;
+			width: 100%;
+			height: auto;
+			scroll-snap-align: start;
+		}
+
+		.footer {
+			background-color: #3b5998;
+			padding: 20px;
+			color: #fff;
+			text-align: center;
+		}
+
+		.btn {
+			display: inline-block;
+			padding: 10px 20px;
+			background-color: #fff;
+			color: #3b5998;
+			text-decoration: none;
+			border-radius: 5px;
+		}
+
+		.btn:hover {
+			background-color: #3b5998;
+			color: #fff;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<div class="header-wrapper">
+			<h1>Booking</h1>
+			<h2>Hôtel de Nantes</h2>
+		</div>
+	</header>
+
+	<main>
+		<section class="hotel-info">
+			<div class="image-slider">
+  				<img class="slide" src="hotel1.jpeg" alt="Image de l'hôtel">
+  				<img class="slide" src="hotel4.jpeg" alt="Image de la chambre">
+ 				<img class="slide" src="hotel5.jpeg" alt="Image du restaurant">
+				</div>
+			</div>
+
+			<div id="description"
+				<p>Situé dans le centre-ville, notre hôtel offre une vue magnifique sur la ville. Nous avons une variété de chambres et de suites pour répondre à tous vos besoins de voyage. Proche des centres d'affaires, préparez vos rendez-vous et menez à bien vos affaires !</p>
+			</div>
+			<div id="price">
+				<p>Prix par nuit : 100€</p>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p><a href="resultats.html">Retour aux résultats</a></p>
+	</footer>
+</body>
+</html>
+
